@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>Random Quote Machine</title>
+  </head>
+  <body onload="getQuote()">
+    <div>
+      <div class="main">
+        <div class="text-box">
+          <h4 class="text">Lorem ipsum dolor sit amet.</h4>
+          <div class="flex-container">
+            <p class="author">-Author</p>
+          </div>
+        </div>
+        <div class="flex">
+          <div>
+            <button class="btn">
+              <i
+                class="fa fa-twitter"
+                style="font-size: 15px; color: white"
+              ></i>
+            </button>
+            <button class="btn">
+              <i
+                class="fa fa-facebook"
+                style="font-size: 15px; color: white"
+              ></i>
+            </button>
+          </div>
+          <button onclick="getQuote()" class="btn">New Quote</button>
+        </div>
+      </div>
+      <p class="credit">
+        by <a href="https://github.com/AksPatel22">Aks Patel</a>
+      </p>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

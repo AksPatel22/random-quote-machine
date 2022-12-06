@@ -1,0 +1,57 @@
+* {
+  transition: 1s ease;
+}
+body {
+  background-color: teal;
+  display: flex;
+  justify-content: center;
+  font-family: sans-serif;
+}
+.main {
+  background-color: white;
+  margin-top: 10rem;
+  width: 40vw;
+  border-radius: 5px;
+  padding: 2rem;
+}
+.flex-container {
+  display: flex;
+  justify-content: flex-end;
+}
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+button {
+  border: none;
+  min-width: 2.5rem;
+  border-radius: 5px;
+  height: 2.5rem;
+  background-color: teal;
+  color: white;
+}
+button:active {
+  border: none;
+}
+h4 {
+  text-align: center;
+}
+.text,
+.author {
+  transition: 0.5s;
+}
+h4 {
+  font-size: 25px;
+}
+.credit {
+  text-align: center;
+  color: white;
+  font-weight: 100;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
